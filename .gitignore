@@ -1,0 +1,23 @@
+# Dataset and preprocessed cache
+/archive/
+/cache/
+
+# Assignment handout and reference evaluation notebook
+/ece285_hw2.pdf
+/2021-08-11-GAN-evaluation-using-FID-and-IS.ipynb
+
+# Model weights and checkpoints (keep result figures and metrics)
+*.pt
+*.pth
+
+# Local notebook, Python, and editor files
+.ipynb_checkpoints/
+__pycache__/
+.claude/
+.codex/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz

@@ -1,0 +1,23 @@
+{
+  "image_size": 64,
+  "batch_size": 128,
+  "latent_dim": 100,
+  "ngf": 64,
+  "ndf": 64,
+  "epochs": 100,
+  "optimizer": "Adam",
+  "lr_G": 0.0002,
+  "lr_D": 0.0002,
+  "adam_betas": [
+    0.5,
+    0.999
+  ],
+  "loss": "non-saturating BCE (BCEWithLogitsLoss)",
+  "G_normalization": "BatchNorm",
+  "D_normalization": "spectral norm",
+  "ema_decay": 0.999,
+  "hflip": true,
+  "seed": 999,
+  "eval_samples_during_training": 3000,
+  "final_eval_samples": 10000
+}
